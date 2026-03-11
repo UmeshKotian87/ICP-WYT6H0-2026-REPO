@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Week 5 | Performance Optimization</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- CSS loaded early (improves LCP) -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Defer JS (improves FID/INP) -->
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>Core Web Vitals Demo</h1>
+    <p>Optimized for Performance</p>
+  </header>
+
+  <!-- LCP ELEMENT -->
+  <section class="hero">
+    <h2>LCP Optimized Hero Section</h2>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="content">
+    <p>This page demonstrates performance best practices.</p>
+
+    <!-- BUTTON (INP improvement) -->
+    <button id="loadData">Load Heavy Content</button>
+
+    <!-- LAZY CONTENT -->
+    <div id="lazyContent"></div>
+  </section>
+
+</body>
+</html>

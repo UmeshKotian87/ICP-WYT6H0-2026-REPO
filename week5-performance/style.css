@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+/* HEADER */
+.header {
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* HERO (LCP optimized: fixed height prevents CLS) */
+.hero {
+  height: 250px;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* CONTENT */
+.content {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* Lazy loaded box */
+.lazy-box {
+  margin-top: 20px;
+  height: 150px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

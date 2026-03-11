@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Week 4 | Global State Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Redux-Style Global State</h1>
+
+  <div class="box">
+    <h2>Counter</h2>
+    <p id="count">0</p>
+    <button onclick="increment()">+</button>
+    <button onclick="decrement()">-</button>
+  </div>
+
+  <div class="box">
+    <h2>User</h2>
+    <p id="user">Not Logged In</p>
+    <button onclick="login()">Login</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="store.js"></script>
+</body>
+</html>
